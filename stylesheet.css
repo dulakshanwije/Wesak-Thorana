@@ -1,14 +1,11 @@
 * {
-    margin: 0px;
-}
-
-h2 {
-color: blue ;
+    margin: auto;
+    border: 0px;
+    padding: 0%;
 }
 
 #main-container {
     background-color: black;
-    margin: auto;
     width: 100vh;
     height: 100vh;
     max-width: 100vw;
@@ -19,56 +16,71 @@ color: blue ;
     position:absolute;
     background-color: blue;
     border-radius: 50%;
-    height: 25vw;
-    width: 25vw;
-    top: 24vw;
-    left: 22.5vw;
+    height: 33.40%;
+    width: 33.40%;
+    top: 32%;
+    left: 32.5%;
     border-color: white;
     border-style: dotted;
-    border-width: 0.75vw;
+    border-width: 0.5vh;
     animation: cirlce 10s linear 0s infinite;
     background-image: radial-gradient(black,green,black,purple,black);
 }
 
 .frame {
     position: absolute;
-    height: 20%;
-    width: 20%;
+    height: 19.20%;
+    width: 19.20%;
     border-style: dotted;
     border-color: white;
-    border-width: 0.75vw;
+    border-width: 0.5vh;
     animation: square 1s infinite ease-in-out;
 }
 #frame2, #frame4, #frame5 {
     transform: rotate(45deg);
 }
 #frame1 {
-    top :11.11%;
-    left: 16.67%;
+    top :14.5%;
+    left: 15.67%;
 }
 #frame3 {
-    right: 16.67%;
-    top: 22.22%;
+    top :14.5%;
+    right: 15.67%;
 }
 #frame2 {
-    top: 5vw;
-    left: 38.89%;
+    top: 4.5%;
+    left: 39.5%;
 }
 #frame4 {
-    right: 5.56%;
-    top: 30vw;
+    left: 5.56%;
+    top: 39.92%;
 }
 #frame5 {
-    left: 5.56%;
-    top: 30vw;
+    right : 5.56%;
+    top: 39.92%;
 }
 #frame6 {
-    top :47vw;
-    left: 16.67%;
+    top :64.5%;
+    left: 16.36%;
 }
 #frame7 {
     right: 16.67%;
-    top: 47vw;
+    top: 64.5%;
+}
+
+#footer-box {
+    height: 13%;
+    width: 90%;
+    position: absolute;
+    border-style: dotted;
+    border-color: white;
+    border-width: 0.5vh;
+    animation: square 1s infinite ease-in-out;
+    left : 4.5%;
+    top: 85%;
+    color: aliceblue;
+    text-align: center;
+
 }
 @keyframes square {
     0% {border-color : black;}
