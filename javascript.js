@@ -3,7 +3,7 @@ function tigger() {
 
     var borderWidth = clientWidth * 0.008;
 
-    alert("Blubs size" + borderWidth);
+    alert(borderWidth);
     document.getElementById("circle").style.borderWidth = borderWidth.toString() + "px";
     document.getElementById("footer-box").style.borderWidth = borderWidth.toString() + "px";
     for (i = 1; i < 8; i++) {
