@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+h2 {
+color: blue ;
+}
+
 #main-container {
     background-color: black;
     margin: auto;
