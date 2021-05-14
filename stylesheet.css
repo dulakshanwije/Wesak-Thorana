@@ -4,6 +4,10 @@
     padding: 0%;
 }
 
+@font-face {
+    font-family: this-font;
+    src: url(font.ttf);
+}
 #main-container {
     background-image: linear-gradient(rgb(9, 31, 99), black);
     width: 100vh;
@@ -80,10 +84,7 @@
     animation: square 3s infinite ease-in-out alternate-reverse;
     left : 4.5%;
     top: 84.5%;
-    text-align: center;
     background-color: antiquewhite;
-    text-decoration-color: aliceblue;
-    text-decoration-color: aqua;
 
 }
 @keyframes square {
@@ -122,4 +123,26 @@
     width: auto;
     left: 36.2%;
     top: 40%;
+}
+
+#bg-img {
+    position: absolute;
+    top: 0%;
+    left: 0.01%;
+    margin: auto;
+    width: 30%;
+    height: auto;
+}
+
+#bg-img1 {
+    position: absolute;
+    top: 0%;
+    right: 0.01%;
+    width: 30%;
+    height: auto;
+}
+#main-title {
+    text-align: center;
+    font-family: this-font;
+
 }
