@@ -39,8 +39,6 @@
     border-color: white;
     border-width: 0.25vh;
     animation: square 3s infinite ease-in-out alternate-reverse;
-    background-image: url(image.jpg);
-    background-size: cover;
 }
 #frame4, #frame5, #frame2 {
     transform: rotate(45deg);
@@ -48,30 +46,44 @@
 #frame1 {
     top :14.5%;
     left: 15.67%;
+    background-image: url(src/2.jpg);
+    background-size: cover;
 }
 #frame3 {
     top :14.5%;
     right: 14.5%;
+    background-image: url(src/3.jpg);
+    background-size: cover;
 }
 #frame2 {
     top: 4%;
     left: 40.4%;
+    background-image: url(src/1.jpg);
+    background-size: cover;
 }
 #frame4 {
     left: 5.56%;
     top: 39%;
+    background-image: url(src/4.jpg);
+    background-size: cover;
 }
 #frame5 {
     right : 4%;
     top: 39%;
+    background-image: url(src/5.jpg);
+    background-size: cover;
 }
 #frame6 {
     top :63%;
     left: 16.36%;
+    background-image: url(src/6.jpg);
+    background-size: cover;
 }
 #frame7 {
     right: 15%;
     top: 63%;
+    background-image: url(src/7.jpg);
+    background-size: cover;
 }
 
 #footer-box {
@@ -146,3 +158,42 @@
     font-family: this-font;
 
 }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    top: 20%;
+    border: 1px solid #888;
+    width: 30%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
