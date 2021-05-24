@@ -4,8 +4,16 @@
     padding: 0%;
 }
 
+.super-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+}
+
 body {
+    display: flex;
     background-image: linear-gradient(rgb(9, 31, 99), black);
+    justify-content: center;
+    align-items: center;
 }
 
 @font-face {
