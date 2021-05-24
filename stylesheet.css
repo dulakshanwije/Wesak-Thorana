@@ -4,6 +4,10 @@
     padding: 0%;
 }
 
+body {
+    background-image: linear-gradient(rgb(9, 31, 99), black);
+}
+
 @font-face {
     font-family: this-font;
     src: url(font.ttf);
@@ -33,12 +37,17 @@
 
 .frame {
     position: absolute;
-    height: 19.20%;
-    width: 19.20%;
+    display: inline;
+    height: 18%;
+    width: 18%;
     border-style: dotted;
     border-color: white;
     border-width: 0.25vh;
-    animation: square 3s infinite ease-in-out alternate-reverse;
+    animation: square 2s infinite ease-in-out alternate-reverse;
+    background-clip: padding-box;
+    outline-style: dotted;
+    outline-width: 0.25vh;
+    outline-color: azure;
 }
 #frame4, #frame5, #frame2 {
     transform: rotate(45deg);
@@ -97,15 +106,34 @@
     left : 4.5%;
     top: 84.5%;
     background-color: antiquewhite;
+    background-clip: padding-box;
 
 }
 @keyframes square {
-    0% {border-color :purple;}
-    20% {border-color: orange;}
-    40% {border-color: red;}
-    60% {border-color: blue;}
-    80% {border-color: green;}
-    100% {border-color: white;}
+    0% {
+        border-color :purple;
+        outline-color: purple;
+    }
+    20% {
+        border-color: orange;
+        outline-color: orange;
+    }
+    40% {
+        border-color: red;
+        outline-color: red;
+    }
+    60% {
+        border-color: blue;
+        outline-color: blue;
+    }
+    80% {
+        border-color: green;
+        outline-color: green;
+    }
+    100% {
+        border-color: white;
+        outline-color: white;
+    }
 }
 @keyframes cirlce {
     0% {

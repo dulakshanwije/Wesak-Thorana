@@ -1,9 +1,15 @@
+function playMusic() {
+    document.getElementById("audio-file").play();
+}
+
 function tigger() {
+    document.getElementById("audio-file").play();
     var clientWidth = document.getElementById('main-container').clientWidth;
     var footerHeight = document.getElementById('footer-box').clientHeight;
 
     var borderWidth = clientWidth * 0.008;
     var footerFont = footerHeight * 0.5;
+    var popboxWidth = clientWidth * 0.5;
 
     document.getElementById("circle").style.borderWidth = borderWidth.toString() + "px";
     document.getElementById("footer-box").style.borderWidth = borderWidth.toString() + "px";
@@ -11,6 +17,7 @@ function tigger() {
     for (i = 1; i < 8; i++) {
         var value = "frame" + i.toString();
         document.getElementById(value).style.borderWidth = borderWidth.toString() + "px";
+        document.getElementById(value).style.outlineWidth = borderWidth.toString() + "px";
     }
 
 

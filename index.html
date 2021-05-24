@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body onload="tigger()" onchange="tigger()">
+<body onload="tigger()" onresize="tigger()">
+    <button onclick="playMusic()">clicked</button>
+    <audio id="audio-file" src="music/song.mp3" autoplay></audio>
     <script src="javascript.js"></script>
 
     <div id="main-container">
