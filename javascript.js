@@ -79,7 +79,6 @@ function tigger() {
     }
 
     frame2.onclick = function () {
-        alert("2");
         modal2.style.display = "block";
     }
 
