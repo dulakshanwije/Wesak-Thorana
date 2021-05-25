@@ -213,7 +213,7 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    top: 20%;
+    top: 5%;
     border: 1px solid #888;
     width: 70%;
   }
@@ -226,9 +226,50 @@ body {
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+  .close:hover, .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+  /* Tabs */
+
+  /* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent ,.tabcontent2,.tabcontent3,.tabcontent4, .tabcontent5, .tabcontent6, .tabcontent7{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  #sinFrame7,#sinFrame6,#sinFrame5,#sinFrame4,#sinFrame3,#sinFrame2,#sinFrame1 {
+      display: block;
   }
